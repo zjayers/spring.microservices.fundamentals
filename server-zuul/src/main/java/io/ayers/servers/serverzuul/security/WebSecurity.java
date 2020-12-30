@@ -25,9 +25,10 @@ public class WebSecurity
         http.headers().frameOptions().disable();
 
         http.authorizeRequests()
+                .antMatchers(HttpMethod.GET, environment.getProperty("api.zuul.actuator.path")).permitAll()
                 .antMatchers(HttpMethod.POST, environment.getProperty("api.accounts.login-path")).permitAll()
                 .antMatchers(HttpMethod.POST, environment.getProperty("api.accounts.registration-path")).permitAll()
-                .antMatchers(environment.getProperty("api.accounts.h2-console-path")).permitAll()
+//                .antMatchers(environment.getProperty("api.accounts.h2-console-path")).permitAll()
                 .and()
                 .authorizeRequests()
                 .anyRequest().authenticated() // Any other HTTP Requests must be authenticated
