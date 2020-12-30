@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--App Info-->
+    <artifactId>bom-server</artifactId>
+    <packaging>pom</packaging>
+
+    <!--Parent-->
+    <parent>
+        <artifactId>bom-root</artifactId>
+        <groupId>io.ayers.root</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../bom-root/pom.xml</relativePath>
+    </parent>
+
+    <!--Modules-->
+    <modules>
+        <module>../server-admin</module>
+        <module>../server-config</module>
+        <module>../server-eureka</module>
+        <module>../server-zuul</module>
+    </modules>
+
+</project>

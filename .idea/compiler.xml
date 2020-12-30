@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bom" />
+        <module name="server-admin" />
+        <module name="server-eureka" />
+        <module name="service-accounts" />
+        <module name="server-zuul" />
+        <module name="server-config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bom" target="8" />
+      <module name="bom-root" target="1.8" />
+      <module name="bom-server" target="1.8" />
+      <module name="bom-service" target="1.8" />
+      <module name="config-properties" target="1.8" />
+      <module name="server-admin" target="1.8" />
+      <module name="server-config" target="1.8" />
+      <module name="server-eureka" target="1.8" />
+      <module name="server-zuul" target="1.8" />
+      <module name="service-accounts" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-properties" options="-parameters" />
+      <module name="server-admin" options="-parameters" />
+      <module name="server-config" options="-parameters" />
+      <module name="server-eureka" options="-parameters" />
+      <module name="server-zuul" options="-parameters" />
+      <module name="service-accounts" options="-parameters" />
+    </option>
+  </component>
+</project>

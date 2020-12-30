@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bom-root/bom-root.iml" filepath="$PROJECT_DIR$/bom-root/bom-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bom-server/bom-server.iml" filepath="$PROJECT_DIR$/bom-server/bom-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bom-service/bom-service.iml" filepath="$PROJECT_DIR$/bom-service/bom-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-admin/server-admin.iml" filepath="$PROJECT_DIR$/server-admin/server-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-config/server-config.iml" filepath="$PROJECT_DIR$/server-config/server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-accounts/service-accounts.iml" filepath="$PROJECT_DIR$/service-accounts/service-accounts.iml" />
+    </modules>
+  </component>
+</project>
