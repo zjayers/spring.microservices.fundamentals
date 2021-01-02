@@ -11,6 +11,7 @@
         <module name="server-admin" />
         <module name="server-eureka" />
         <module name="service-accounts" />
+        <module name="server-vault" />
         <module name="server-zuul" />
         <module name="server-config" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="server-admin" target="1.8" />
       <module name="server-config" target="1.8" />
       <module name="server-eureka" target="1.8" />
+      <module name="server-vault" target="1.8" />
       <module name="server-zuul" target="1.8" />
       <module name="service-accounts" target="1.8" />
     </bytecodeTargetLevel>
@@ -34,6 +36,7 @@
       <module name="server-admin" options="-parameters" />
       <module name="server-config" options="-parameters" />
       <module name="server-eureka" options="-parameters" />
+      <module name="server-vault" options="-parameters" />
       <module name="server-zuul" options="-parameters" />
       <module name="service-accounts" options="-parameters" />
     </option>
