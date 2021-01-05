@@ -1,3 +1,37 @@
+POST http://localhost:9000/actuator/bus-refresh
+
+###
+
+POST http://localhost:9000/actuator/bus-refresh
+
+<> 2021-01-04T193739.405.json
+
+###
+
+POST http://localhost:9000/bus-refresh
+
+<> 2021-01-04T193730.404.json
+
+###
+
+POST http://localhost:9000/bus-refresh
+
+<> 2021-01-04T193533.404.json
+
+###
+
+POST http://localhost:9000/bus-refresh
+
+<> 2021-01-04T193003.404.json
+
+###
+
+GET http://localhost:9000/bus-refresh
+
+<> 2021-01-04T192939.404.json
+
+###
+
 GET http://172.40.1.14:51505/accounts/1234/albums
 
 <> 2021-01-04T083732.401.json

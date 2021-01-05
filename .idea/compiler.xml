@@ -15,6 +15,7 @@
         <module name="server-zuul" />
         <module name="service-albums" />
         <module name="server-config" />
+        <module name="server-cloud-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="bom-service" target="1.8" />
       <module name="config-properties" target="1.8" />
       <module name="server-admin" target="1.8" />
+      <module name="server-cloud-gateway" target="1.8" />
       <module name="server-config" target="1.8" />
       <module name="server-eureka" target="1.8" />
       <module name="server-vault" target="1.8" />
@@ -36,6 +38,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-properties" options="-parameters" />
       <module name="server-admin" options="-parameters" />
+      <module name="server-cloud-gateway" options="-parameters" />
       <module name="server-config" options="-parameters" />
       <module name="server-eureka" options="-parameters" />
       <module name="server-vault" options="-parameters" />

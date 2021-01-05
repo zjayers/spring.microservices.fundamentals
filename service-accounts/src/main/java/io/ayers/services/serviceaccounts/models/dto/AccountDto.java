@@ -22,5 +22,5 @@ public class AccountDto implements Serializable {
     private String password;
     private String encryptedPassword;
     private String email;
-    private List<AlbumResponseModel> albumResponseModelList;
+    private List<AlbumResponseModel> albums;
 }

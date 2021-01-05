@@ -1,5 +1,6 @@
 package io.ayers.services.serviceaccounts;
 
+import io.ayers.services.serviceaccounts.feign.FeignErrorDecoder;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.boot.SpringApplication;
@@ -41,6 +42,11 @@ public class ServiceAccountsApplication {
         modelMapper.getConfiguration()
                 .setMatchingStrategy(MatchingStrategies.STRICT);
         return modelMapper;
+    }
+
+    @Bean
+    public FeignErrorDecoder feignErrorDecoder() {
+        return new FeignErrorDecoder();
     }
 
 }

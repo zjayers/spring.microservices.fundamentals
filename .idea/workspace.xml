@@ -5,27 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f0137f4-7f2b-4c22-8e02-cfdff618bdc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f45d70-bb27-462c-b24c-569dd34ad409.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f45d70-bb27-462c-b24c-569dd34ad409.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom-root/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom-root/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bom-service/bom-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bom-service/bom-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bom-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-config/src/main/java/io/ayers/servers/serverconfig/ServerConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-config/src/main/java/io/ayers/servers/serverconfig/ServerConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-eureka/server-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server-eureka/server-eureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-accounts/service-accounts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/service-accounts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/ServiceAccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/ServiceAccountsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/controllers/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/controllers/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/feign/AlbumServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/feign/AlbumServiceFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/feign/AlbumServiceFeignFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/feign/AlbumServiceFeignFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/feign/FeignErrorDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/feign/FeignErrorDecoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/models/dto/AccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/models/dto/AccountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/repositories/AccountRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/services/implementations/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/services/implementations/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/services/interfaces/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/services/interfaces/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-albums/src/main/java/io/ayers/services/servicealbums/controllers/AlbumsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-albums/src/main/java/io/ayers/services/servicealbums/controllers/AlbumsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +103,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTTP Request" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -146,6 +143,60 @@
               </Biscuit>
             </list>
           </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/actuator/bus-refresh" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="172.40.1.14" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="035F399A36C35167F9A17BF2FFB33D3F" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/bus-refresh" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="172.40.1.14" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="035F399A36C35167F9A17BF2FFB33D3F" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000/bus-refresh" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="172.40.1.14" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="035F399A36C35167F9A17BF2FFB33D3F" />
+              </Biscuit>
+            </list>
+          </option>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://172.40.1.14:51505/accounts/1234/albums" />
           <option name="urlPath" value="" />
@@ -170,8 +221,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Multirun.Photo Application">
-    <configuration name="Photo Application" type="Multirun" factoryName="Multirun" separateTabs="false" reuseTabsWithFailures="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="true" delayTime="20.0">
+  <component name="RunManager" selected="Multirun.Photo Application - Zuul">
+    <configuration name="scratch#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Photo Application - Cloud Gateway" type="Multirun" factoryName="Multirun" separateTabs="false" reuseTabsWithFailures="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="true" delayTime="20.0">
+      <runConfiguration name="ServerConfigApplication" type="Spring Boot" />
+      <runConfiguration name="ServerEurekaApplication" type="Spring Boot" />
+      <runConfiguration name="ServerAdminApplication" type="Spring Boot" />
+      <runConfiguration name="ServiceAccountsApplication" type="Spring Boot" />
+      <runConfiguration name="ServiceAlbumsApplication" type="Spring Boot" />
+      <runConfiguration name="ServerCloudGatewayApplication" type="Spring Boot" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Photo Application - Zuul" type="Multirun" factoryName="Multirun" separateTabs="false" reuseTabsWithFailures="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="true" delayTime="20.0">
       <runConfiguration name="ServerConfigApplication" type="Spring Boot" />
       <runConfiguration name="ServerEurekaApplication" type="Spring Boot" />
       <runConfiguration name="ServerAdminApplication" type="Spring Boot" />
@@ -183,6 +246,13 @@
     <configuration name="ServerAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.ayers.servers.serveradmin.ServerAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.ayers.gateway.servercloudgateway.ServerCloudGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,14 +293,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Multirun.Photo Application" />
       <item itemvalue="Spring Boot.ServerAdminApplication" />
       <item itemvalue="Spring Boot.ServerConfigApplication" />
       <item itemvalue="Spring Boot.ServerEurekaApplication" />
       <item itemvalue="Spring Boot.ServerZuulApplication" />
       <item itemvalue="Spring Boot.ServiceAccountsApplication" />
       <item itemvalue="Spring Boot.ServiceAlbumsApplication" />
+      <item itemvalue="Spring Boot.ServerCloudGatewayApplication" />
+      <item itemvalue="Multirun.Photo Application - Zuul" />
+      <item itemvalue="Multirun.Photo Application - Cloud Gateway" />
+      <item itemvalue="HTTP Request.scratch#1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.scratch#1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringGeneralSettings">
@@ -256,12 +334,28 @@
       <workItem from="1609621756103" duration="486000" />
       <workItem from="1609622485623" duration="4580000" />
       <workItem from="1609769589662" duration="14452000" />
-      <workItem from="1609790251772" duration="3010000" />
+      <workItem from="1609790251772" duration="7601000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/feign/FeignErrorDecoder.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-accounts/src/main/java/io/ayers/services/serviceaccounts/services/implementations/AccountServiceImpl.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

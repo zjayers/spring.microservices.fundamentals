@@ -22,7 +22,7 @@ public class AlbumServiceFeignFallback
                 ? String.format("404 Error: GetAlbums was called with userId: %s. Error message: %s",
                         userId,
                         cause.getLocalizedMessage())
-                : "Error took place: " + cause.getLocalizedMessage());
+                : "Error took place: " + cause.getCause());
 
         return new ArrayList<>();
     }

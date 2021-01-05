@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/bom-server/bom-server.iml" filepath="$PROJECT_DIR$/bom-server/bom-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/bom-service/bom-service.iml" filepath="$PROJECT_DIR$/bom-service/bom-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-admin/server-admin.iml" filepath="$PROJECT_DIR$/server-admin/server-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-cloud-gateway/server-cloud-gateway.iml" filepath="$PROJECT_DIR$/server-cloud-gateway/server-cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-config/server-config.iml" filepath="$PROJECT_DIR$/server-config/server-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />

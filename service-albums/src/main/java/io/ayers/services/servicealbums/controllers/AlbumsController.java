@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/accounts/{id}/albums")
+@RequestMapping("/accounts/{userId}/albums")
 @RequiredArgsConstructor
 public class AlbumsController {
 
@@ -27,11 +27,11 @@ public class AlbumsController {
                     MediaType.APPLICATION_JSON_VALUE,
                     MediaType.APPLICATION_XML_VALUE,
             })
-    public List<AlbumResponseModel> userAlbums(@PathVariable String id) {
+    public List<AlbumResponseModel> userAlbums(@PathVariable("userId") String userId) {
 
         List<AlbumResponseModel> returnValue = new ArrayList<>();
 
-        List<AlbumEntity> albumsEntities = albumService.getAlbums(id);
+        List<AlbumEntity> albumsEntities = albumService.getAlbums(userId);
 
         if(albumsEntities == null || albumsEntities.isEmpty())
         {

@@ -58,7 +58,7 @@ public class AccountServiceImpl
         AccountDto accountDto = modelMapper.map(accountEntity, AccountDto.class);
 
         List<AlbumResponseModel> albumList = albumServiceFeign.getAlbums(userId);
-        accountDto.setAlbumResponseModelList(albumList);
+        accountDto.setAlbums(albumList);
 
         return accountDto;
     }
