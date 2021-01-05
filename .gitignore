@@ -9,8 +9,7 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
+/elk/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

@@ -1,11 +1,13 @@
 package io.ayers.services.serviceaccounts.models.dto;
 
+import io.ayers.services.serviceaccounts.models.response.AlbumResponseModel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.util.List;
 
 @Data
 @Builder
@@ -20,4 +22,5 @@ public class AccountDto implements Serializable {
     private String password;
     private String encryptedPassword;
     private String email;
+    private List<AlbumResponseModel> albumResponseModelList;
 }

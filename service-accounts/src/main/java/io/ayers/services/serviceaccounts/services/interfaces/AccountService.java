@@ -7,4 +7,5 @@ public interface AccountService extends UserDetailsService {
 
     AccountDto createAccount(AccountDto accountDto);
     AccountDto getAccountDetailsByEmail(String email);
+    AccountDto getAccountDetailsByUserId(String userId);
 }

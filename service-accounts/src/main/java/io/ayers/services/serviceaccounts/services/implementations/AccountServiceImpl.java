@@ -1,7 +1,9 @@
 package io.ayers.services.serviceaccounts.services.implementations;
 
+import io.ayers.services.serviceaccounts.feign.AlbumServiceFeign;
 import io.ayers.services.serviceaccounts.models.domain.AccountEntity;
 import io.ayers.services.serviceaccounts.models.dto.AccountDto;
+import io.ayers.services.serviceaccounts.models.response.AlbumResponseModel;
 import io.ayers.services.serviceaccounts.repositories.AccountRepository;
 import io.ayers.services.serviceaccounts.services.interfaces.AccountService;
 import lombok.RequiredArgsConstructor;
@@ -13,6 +15,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -22,6 +25,7 @@ public class AccountServiceImpl
 
     private final ModelMapper modelMapper;
     private final AccountRepository accountRepository;
+    private final AlbumServiceFeign albumServiceFeign;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
 
@@ -43,6 +47,20 @@ public class AccountServiceImpl
     public AccountDto getAccountDetailsByEmail(String email) {
         AccountEntity accountEntity = findByEmail(email);
         return modelMapper.map(accountEntity, AccountDto.class);
+    }
+
+    @Override
+    public AccountDto getAccountDetailsByUserId(String userId) {
+        AccountEntity accountEntity = accountRepository.findByUserId(userId);
+
+        if (accountEntity == null) throw new UsernameNotFoundException("Account not found!");
+
+        AccountDto accountDto = modelMapper.map(accountEntity, AccountDto.class);
+
+        List<AlbumResponseModel> albumList = albumServiceFeign.getAlbums(userId);
+        accountDto.setAlbumResponseModelList(albumList);
+
+        return accountDto;
     }
 
     @Override

@@ -13,6 +13,7 @@
         <module name="service-accounts" />
         <module name="server-vault" />
         <module name="server-zuul" />
+        <module name="service-albums" />
         <module name="server-config" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
       <module name="server-vault" target="1.8" />
       <module name="server-zuul" target="1.8" />
       <module name="service-accounts" target="1.8" />
+      <module name="service-albums" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,6 +41,7 @@
       <module name="server-vault" options="-parameters" />
       <module name="server-zuul" options="-parameters" />
       <module name="service-accounts" options="-parameters" />
+      <module name="service-albums" options="-parameters" />
     </option>
   </component>
 </project>

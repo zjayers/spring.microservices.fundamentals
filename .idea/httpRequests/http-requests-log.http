@@ -1,0 +1,16 @@
+GET http://172.40.1.14:51505/accounts/1234/albums
+
+<> 2021-01-04T083732.401.json
+
+###
+
+GET http://172.40.1.14:51505/accounts/1234/albums
+
+<> 2021-01-04T083652.401.json
+
+###
+
+GET http://172.40.1.14:51317/accounts/1234/albums
+
+###
+

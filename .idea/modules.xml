@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-accounts/service-accounts.iml" filepath="$PROJECT_DIR$/service-accounts/service-accounts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-albums/service-albums.iml" filepath="$PROJECT_DIR$/service-albums/service-albums.iml" />
     </modules>
   </component>
 </project>
